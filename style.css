@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, #000000, #383838);
+  background-repeat: no-repeat;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.reset {
+  align-self: flex-start;
+  margin: 0 2rem 15rem 5rem;
+  border-radius: 100%;
+  font-size: 25px;
+}
+
+h1 {
+  margin: 2.1rem 0;
+  color: orange;
+  letter-spacing: 2px;
+}
+
+.container {
+  display: flex;
+
+  gap: 4rem;
+}
+
+.section {
+  width: 19rem;
+  height: 16rem;
+  background-color: white;
+  margin-top: 3rem;
+}
+
+.info {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: rgb(58, 46, 46);
+}
+
+.info h3,
+.info span {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 5px;
+  color: white;
+}
+
+.screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  height: 100%;
+}
+
+.screen i {
+  font-size: 90px;
+  color: orange;
+}
+
+h2 {
+  margin-top: 4rem;
+  font-weight: 700;
+  font-size: 2.1rem;
+  margin-bottom: 4rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  height: 8rem;
+}
+
+button {
+  margin: 0 1.5rem;
+  padding: 2.5rem;
+  border-radius: 100%;
+  font-size: 40px;
+  color: orange;
+  background-color: black;
+  cursor: pointer;
+  border: 2px solid rgb(97, 90, 90);
+  box-shadow: 0px 0px 5px 6px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: rgb(233, 233, 201);
+}
